@@ -1,3 +1,6 @@
+# I didn't code all this, this is a small rework of a huge project of another student, credit to Neila Benlamri
+
+
 # DCM for children with callosal dysgenesis
 
 This repository contains the analysis code used to run Dynamic Causal Modelling
