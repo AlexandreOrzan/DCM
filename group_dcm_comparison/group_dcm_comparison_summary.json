@@ -1,0 +1,119 @@
+{
+  "data_root": "/Users/alex/university/Neuroscience_Master/short-term internship/derivatives_MNIcohort3",
+  "out_dir": "/Users/alex/university/Neuroscience_Master/short-term internship/src/group_dcm_comparison",
+  "n_records": 89,
+  "n_subjects": 25,
+  "subjects": [
+    "sub-03",
+    "sub-04",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-13",
+    "sub-14",
+    "sub-19",
+    "sub-20",
+    "sub-26",
+    "sub-31",
+    "sub-32",
+    "sub-34",
+    "sub-41",
+    "sub-42",
+    "sub-43",
+    "sub-45",
+    "sub-51",
+    "sub-52",
+    "sub-54",
+    "sub-55",
+    "sub-56",
+    "sub-58",
+    "sub-63",
+    "sub-64"
+  ],
+  "tasks": [
+    "MDOD",
+    "MDOG",
+    "MGOD",
+    "MGOG"
+  ],
+  "model_winner": {
+    "Label": "SENSORY_RELAY__UNC_FLEX",
+    "RFX_ExpectedFrequency": 0.57488508275924,
+    "RFX_ExceedanceProbability": 0.99101,
+    "DirichletAlpha": 55.763853027646284,
+    "FFX_Posterior": 1.0
+  },
+  "family_winners": {
+    "crossed_pathway": {
+      "Label": "SENSORY_RELAY",
+      "RFX_ExpectedFrequency": 0.5998162886090188,
+      "RFX_ExceedanceProbability": 0.99092,
+      "DirichletAlpha": 55.78291484063875,
+      "FFX_Posterior": 1.0
+    },
+    "uncrossed_policy": {
+      "Label": "FLEX",
+      "RFX_ExpectedFrequency": 0.9889139204019441,
+      "RFX_ExceedanceProbability": 1.0,
+      "DirichletAlpha": 89.99116675657689,
+      "FFX_Posterior": 1.0
+    }
+  },
+  "missing": [
+    {
+      "Subject": "sub-03",
+      "Task": "MGOD",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-06",
+      "Task": "MGOG",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-20",
+      "Task": "MDOD",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-26",
+      "Task": "MGOG",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-32",
+      "Task": "MDOD",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-45",
+      "Task": "MDOD",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-45",
+      "Task": "MDOG",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-45",
+      "Task": "MGOG",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-52",
+      "Task": "MGOD",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-58",
+      "Task": "MDOG",
+      "Reason": "missing F_values.mat"
+    },
+    {
+      "Subject": "sub-63",
+      "Task": "MDOD",
+      "Reason": "missing F_values.mat"
+    }
+  ]
+}
